@@ -1,0 +1,31 @@
+id,year,title,venue,category,tasks,methods,url
+dreamer-fr2026,2026,Automation of PCB autorouting via world-model reinforcement learning and freerouting integration,Expert Systems with Applications,routing,routing;constraints,rl;neural,https://doi.org/10.1016/j.eswa.2026.131424
+hwe-bench2026,2026,HWE-Bench: Can Language Models Perform Board-level Schematic Designs?,arXiv,other,schematic;benchmark;constraints,llm-agent,https://arxiv.org/abs/2603.18102
+moduplace2026,2026,ModuPlace: LLM-Assisted Modular PCB Placement via Preference-Optimized Constraint Graph Generation,DAC 2026,other,placement;constraints,classical;llm-agent;rl,https://yhhan.com/PDFs/ModuPlace_paper.pdf
+mlv-cbs2026,2026,Multi-agent based minimal-layer via routing algorithm for PCB design,Integration,routing,routing;constraints,classical,https://doi.org/10.1016/j.vlsi.2025.102533
+omnirouting2026,2026,OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing,arXiv,routing,routing;benchmark;constraints,llm-agent,https://arxiv.org/abs/2608.04434
+pcb-bench2026,2026,PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing,ICLR 2026,routing,benchmark;placement;routing,llm-agent,https://openreview.net/forum?id=Q5QLu7XTWx
+pcb-migrator2026,2026,PCB-Migrator: Automated PCB PnR Migration,DATE 2026,other,migration;placement;routing;constraints,classical,https://yhhan.com/PDFs/PCB-Migrator_paper.pdf
+pcbrouteagent2026,2026,PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?,arXiv,routing,routing;constraints,llm-agent,https://arxiv.org/abs/2611.08175
+pcbschemagen2026,2026,PCBSchemaGen: Reward-Guided LLM Code Synthesis for Printed Circuit Boards (PCB) Schematic Design with Structured Verification,arXiv,other,schematic;constraints;benchmark,llm-agent,https://arxiv.org/abs/2602.00510
+pcbworld2026,2026,PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation,KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI,routing,routing;benchmark;constraints,rl;llm-agent,https://arxiv.org/abs/2607.05915
+schgen2026,2026,SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations,arXiv,other,schematic;benchmark,llm-agent,https://arxiv.org/abs/2605.30345
+security-routing2026,2026,Security-oriented printed-circuit-board routing with deep reinforcement learning,Integration,routing,routing;constraints,rl;classical,https://doi.org/10.1016/j.vlsi.2025.102602
+st-gat2026,2026,ST-GAT: A Spatial-Temporal Graph Attention Network for Multi-Agent Reinforcement Learning-Based PCB Routing,ECIE 2026,routing,routing;constraints,rl;neural,https://doi.org/10.1109/ecie69549.2026.11565623
+genai-pcb-survey2026,2026,Surveying GenAI-based Automation in Printed Circuit Board Design and Test,arXiv,surveys,foundations,llm-agent,https://arxiv.org/abs/2606.17074
+pad-focused-routing2025,2025,A Pad-Focused PCB Routing Algorithm Using Polygon-Based Dynamic Partitioning,IEEE Access,routing,routing,classical,https://doi.org/10.1109/access.2024.3386921
+llm-routing2025,2025,Applying Existing Large Language Models for Print Circuit Board Routing,Engineering Proceedings / ICSEE 2024,routing,routing,llm-agent,https://doi.org/10.3390/engproc2025086002
+gpcb2025,2025,GPCB Routing: Generative Pretrained Transformers-Based Printed Circuit Board Routing Method,"IEEE TCAD 44(4), 2025",routing,routing,neural,https://doi.org/10.1109/TCAD.2024.3486241
+ordered-escape2025,2025,Intelligent Ordered Escape Routing via Deep Reinforcement Learning and Hybrid Heuristics,CEI 2025,routing,routing;escape-fanout,rl;classical,https://doi.org/10.1109/cei66465.2025.11398471
+pcb-agent2025,2025,PCBAgent: An Agent-based Framework for High-Density Printed Circuit Board Placement,ASP-DAC 2025,other,placement,llm-agent;rl,https://doi.org/10.1145/3658617.3697736
+d3qn2024,2024,Reinforcement Learning Based PCB Routing Using Dueling Double Deep Q Network,ICICM 2024,routing,routing,rl;neural,https://doi.org/10.1109/icicm63644.2024.10814351
+prg2024,2024,Routing Generative Pre-Trained Transformers for Printed Circuit Board,ISEDA 2024,routing,routing,neural,https://doi.org/10.1109/iseda62518.2024.10617906
+ser-net2024,2024,SER-NET: A Neuralize PCB Simulataneous Escape Routing Method Using Deep Reinforcement Learning,ICICM 2024,routing,routing;escape-fanout,rl;neural,https://doi.org/10.1109/icicm63644.2024.10814469
+ai-pcb-vlsi-survey2023,2023,Consumer Electronics Product Manufacturing Time Reduction and Optimization Using AI-Based PCB and VLSI Circuit Designing,IEEE Transactions on Consumer Electronics,surveys,foundations;routing;placement,rl;neural,https://doi.org/10.1109/tce.2023.3240249
+fanoutnet2023,2023,FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning,AAAI 2023,routing,routing;escape-fanout,rl;neural,https://doi.org/10.1609/aaai.v37i7.26030
+trouter2023,2023,TRouter: Thermal-Driven PCB Routing via Nonlocal Crisscross Attention Networks,IEEE TCAD,routing,routing;constraints,neural,https://doi.org/10.1109/tcad.2023.3243544
+ns-place2022,2022,Net Separation-Oriented Printed Circuit Board Placement via Margin Maximization,ASP-DAC 2022,other,placement;constraints,classical,https://arxiv.org/abs/2210.14259
+unified-routing2021,2021,A Unified Printed Circuit Board Routing Algorithm With Complicated Constraints and Differential Pairs,ASP-DAC 2021,routing,routing;constraints,classical,https://doi.org/10.1145/3394885.3431568
+hierarchy-mcts2020,2020,A Hierarchy MCTS Algorithm for The Automated PCB Routing,ICCA 2020,routing,routing,classical,https://doi.org/10.1109/icca51439.2020.9264558
+pcb-routing-survey2012,2012,Advances in PCB Routing,IPSJ Transactions on System LSI Design Methodology,surveys,foundations;routing;escape-fanout;constraints,classical,https://doi.org/10.2197/ipsjtsldm.5.14
+lee1961,1961,An Algorithm for Path Connections and Its Applications,IRE Transactions on Electronic Computers,routing,routing;foundations,classical,https://doi.org/10.1109/TEC.1961.5219222

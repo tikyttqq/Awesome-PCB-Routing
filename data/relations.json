@@ -1,0 +1,67 @@
+[
+  {
+    "citing": "moduplace2026",
+    "cited": "ns-place2022",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "moduplace2026",
+    "cited": "pcb-agent2025",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "moduplace2026",
+    "cited": "pcb-migrator2026",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "dreamer-fr2026",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "fanoutnet2023",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "gpcb2025",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "lee1961",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "omnirouting2026",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "pcb-agent2025",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "pcb-bench2026",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "pcbworld2026",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "pcbrouteagent2026",
+    "cited": "unified-routing2021",
+    "source": "manual-reference-check"
+  },
+  {
+    "citing": "trouter2023",
+    "cited": "ns-place2022",
+    "source": "manual-reference-check"
+  }
+]

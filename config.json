@@ -1,0 +1,172 @@
+{
+  "rule_version": 2,
+  "scope": {
+    "board_regex": "\\bpcb(?:s|world|routeagent|schemagen|agent|-bench)?\\b|print(?:ed)?[ -]circuit[ -]boards?|board[ -]level|\\bkicad\\b|\\bfreerouting\\b|\\bomnirouting\\b|\\bschgen\\b|\\bmoduplace\\b",
+    "design_regex": "rout(?:e|es|er|ers|ing|ability)|placement|schematic|layout|fanout|fan-out|escape|length[ -]match|design automation",
+    "exclude_title_regex": "defect detection|defect classification|surface inspection|solder joint inspection|polychlorinated biphenyl|vehicle routing|surface mount vehicle|network.on.chip|packet routing"
+  },
+  "arxiv_query": "((ti:PCB OR abs:PCB OR ti:\"printed circuit board\" OR abs:\"printed circuit board\" OR ti:\"print circuit board\" OR ti:KiCad OR ti:OmniRouting OR ti:SchGen OR ti:ModuPlace) AND (all:routing OR all:autorouting OR all:placement OR all:schematic OR all:layout OR all:fanout OR all:\"fan-out\" OR all:escape OR all:survey))",
+  "crossref_queries": [
+    "printed circuit board routing",
+    "printed circuit board placement",
+    "printed circuit board schematic generation",
+    "printed circuit board autorouting",
+    "PCB routing reinforcement learning",
+    "PCB routing transformer",
+    "PCB routing Monte Carlo tree search",
+    "PCB escape routing neural",
+    "PCB fanout reinforcement learning",
+    "printed circuit board design survey"
+  ],
+  "tasks": {
+    "routing": {
+      "label": "PCB Routing",
+      "description": "Algorithms and learning-based methods for connecting PCB nets across routing layers.",
+      "regex": "rout(?:e|es|er|ers|ing|ability)"
+    },
+    "escape-fanout": {
+      "label": "Escape Routing and Fanout",
+      "description": "Pin escape, fanout planning, and routing for dense packages.",
+      "regex": "escape|fan[ -]?out|ball grid array|\\bbga\\b"
+    },
+    "placement": {
+      "label": "PCB Placement",
+      "description": "Component placement, modular layout, and routability-aware optimization.",
+      "regex": "placement|placing|placer|floorplan"
+    },
+    "schematic": {
+      "label": "Schematic Generation",
+      "description": "Board-level circuit synthesis and representations for generating editable schematics.",
+      "regex": "schematic|netlist generation|board-level circuit design"
+    },
+    "migration": {
+      "label": "Layout Migration",
+      "description": "Reusing and adapting existing PCB placements and routes to new design requirements.",
+      "regex": "migration|migrator|retarget"
+    },
+    "constraints": {
+      "label": "Constraints and Verification",
+      "description": "Design rules, differential pairs, electrical and thermal constraints, and verification.",
+      "regex": "constraint|differential pair|length.match|signal integrity|power integrity|thermal|design.rule|verification"
+    },
+    "benchmark": {
+      "label": "Benchmarks and Environments",
+      "description": "Datasets, interactive environments, and evaluation frameworks for PCB design automation.",
+      "regex": "benchmark|dataset|environment|testbed"
+    },
+    "foundations": {
+      "label": "Foundations and Surveys",
+      "description": "Foundational routing algorithms and surveys relevant to PCB design.",
+      "regex": "survey|review|maze rout|path connections"
+    }
+  },
+  "methods": {
+    "classical": {
+      "label": "Classical Optimization",
+      "regex": "a\\*|maze|integer programming|\\bmilp\\b|simulated annealing|graph matching|lagrangian|constraint graph"
+    },
+    "rl": {
+      "label": "Reinforcement Learning",
+      "regex": "reinforcement learning|\\bppo\\b|\\bgrpo\\b|world.model"
+    },
+    "neural": {
+      "label": "Neural Models",
+      "regex": "neural|transformer|deep learning|attention network"
+    },
+    "llm-agent": {
+      "label": "LLMs and Agents",
+      "regex": "\\bllms?\\b|language models?|agent|multimodal"
+    }
+  },
+  "venues": [
+    {
+      "id": "DAC",
+      "regex": "\\bDAC\\b|design automation conference",
+      "group": "EDA conference"
+    },
+    {
+      "id": "ICCAD",
+      "regex": "\\bICCAD\\b|international conference on computer.aided design",
+      "group": "EDA conference"
+    },
+    {
+      "id": "DATE",
+      "regex": "\\bDATE\\b|design,? automation.{0,10}test in europe",
+      "group": "EDA conference"
+    },
+    {
+      "id": "ASP-DAC",
+      "regex": "ASP.?DAC|asia and south pacific design automation",
+      "group": "EDA conference"
+    },
+    {
+      "id": "ISPD",
+      "regex": "\\bISPD\\b|international symposium on physical design",
+      "group": "EDA conference"
+    },
+    {
+      "id": "TCAD",
+      "regex": "\\bTCAD\\b|transactions on computer.aided design",
+      "group": "EDA journal"
+    },
+    {
+      "id": "TVLSI",
+      "regex": "TVLSI|transactions on very large scale integration",
+      "group": "EDA journal"
+    },
+    {
+      "id": "NeurIPS",
+      "regex": "NeurIPS|neural information processing systems",
+      "group": "AI conference"
+    },
+    {
+      "id": "ICML",
+      "regex": "\\bICML\\b|international conference on machine learning",
+      "group": "AI conference"
+    },
+    {
+      "id": "ICLR",
+      "regex": "\\bICLR\\b|international conference on learning representations",
+      "group": "AI conference"
+    },
+    {
+      "id": "AAAI",
+      "regex": "\\bAAAI\\b",
+      "group": "AI conference"
+    },
+    {
+      "id": "KDD",
+      "regex": "\\bKDD\\b|knowledge discovery and data mining",
+      "group": "AI conference"
+    },
+    {
+      "id": "JMD",
+      "regex": "journal of mechanical design",
+      "group": "Related journal"
+    },
+    {
+      "id": "ESWA",
+      "regex": "expert systems with applications",
+      "group": "Related journal"
+    },
+    {
+      "id": "TEMC",
+      "regex": "transactions on electromagnetic compatibility",
+      "group": "Related journal"
+    }
+  ],
+  "sections": {
+    "surveys": {
+      "label": "Surveys",
+      "description": "Surveys and review articles on PCB routing and board-level design automation."
+    },
+    "routing": {
+      "label": "PCB Routing",
+      "description": "Routing algorithms, AI methods, fanout and escape routing, and routing-focused benchmarks and environments."
+    },
+    "other": {
+      "label": "Other PCB Design",
+      "description": "Schematic generation, component placement, and layout migration. Each paper appears in one primary category only."
+    }
+  }
+}
